@@ -2,7 +2,7 @@ import React, { Fragment, useState, useEffect } from 'react'
 import { TableCell } from '@material-ui/core'
 import { connect } from 'react-redux'
 
-import { higherSalarySelectors } from '../redux/reducers/reducer'
+import { higherSalarySelectors } from '../../redux/reducers/reducer'
 
 const ListItemComponent = (props) => {
   const [isHigh, setIsHigh] = useState(false);

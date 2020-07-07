@@ -5,7 +5,7 @@ import { TableContainer, Table, TableHead, TableRow, TableCell, TableBody, Paper
 import { makeStyles } from '@material-ui/core/styles';
 import EditIcons from '@material-ui/icons/Edit'
 
-import { addListData } from '../redux/actions/actionCreators'
+import { addListData } from '../../redux/actions/actionCreators'
 import ListItemComponent from './ListItemComponent';
 // import EditModal from './EditModal';
 
