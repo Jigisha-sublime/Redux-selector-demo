@@ -1,14 +1,12 @@
-import React from 'react'
-import Navbar from '../Layout/Navbar'
-import ListComponent from './ListComponent'
+import React from 'react';
+import Navbar from '../Layout/Navbar';
+import ListComponent from './ListComponent';
 
-const Home = () => {
-  return (
-    <div className="main-container">
-      <Navbar/>
-      <ListComponent/>
-    </div>
-  )
-}
+const Home = () => (
+  <div className="main-container">
+    <Navbar />
+    <ListComponent />
+  </div>
+);
 
-export default Home
+export default Home;

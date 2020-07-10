@@ -1,3 +1,3 @@
-const isLogin = false
+const isLogin = false;
 
-export default  isLogin
+export default isLogin;

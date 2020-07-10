@@ -1,17 +1,16 @@
-import React from 'react'
+import React from 'react';
 import {
   AppBar,
   Toolbar,
   IconButton,
-  Typography
-} from '@material-ui/core'
-import MenuIcon from '@material-ui/icons/Menu'
+  Typography,
+} from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
 
-const useStyles = makeStyles()
+const useStyles = makeStyles();
 
 const Navbar = () => {
-  const classes = useStyles()
+  const classes = useStyles();
   return (
     <AppBar position="static">
       <Toolbar>
@@ -20,7 +19,7 @@ const Navbar = () => {
         </Typography>
       </Toolbar>
     </AppBar>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;
