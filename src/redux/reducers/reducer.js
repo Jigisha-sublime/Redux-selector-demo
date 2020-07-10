@@ -20,4 +20,6 @@ export default (state = initialState, action) => {
   }
 };
 
-export const higherSalarySelectors = (state) => state.sampleReducer.empList.filter((emp) => emp.employee_salary > 200000);
+export const higherSalarySelectors = (state) => (
+  state.sampleReducer.empList.filter((emp) => emp.employee_salary > 200000)
+);
