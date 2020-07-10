@@ -1,0 +1,79 @@
+
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
+
+
+body{
+  background-image: url("./assets/bg2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Open Sans", sans-serif;
+}
+.password-show-btn{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.icon-container{
+  position: absolute;
+  padding-right: 10px;
+}
+
+.card-stretch{
+  min-width: 552px;
+}
+.button-container{
+  display: flex;
+  justify-content: space-evenly;
+    width: 30%;
+    margin: 4% auto;
+}
+
+
+.btn-light {
+   
+  &:hover{
+    box-shadow: none;
+  }
+  &:focus{
+    box-shadow: unset;
+    border: unset;
+  }
+}
+.card-header, .card-footer{
+  background-color: unset;
+}
+.no-border{
+  border:none;
+}
+.form-text{
+  text-align: initial;
+}
+.card-text{
+  font-size: small;
+  margin: 25px 0;
+}
+.show-error{
+  border-color: #DC3545;
+}
+.card-link{
+  color: #007BFF !important;
+  cursor: pointer;
+}
+.message{
+  color: green;
+}
+.icon-style{
+  border-radius: 45%;
+  font-size: smaller;
+  background-color: #F3F5F9 !important;
+}
+.btn-primary {
+  background-color: #2E6CC0;
+}
