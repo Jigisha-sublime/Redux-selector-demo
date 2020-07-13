@@ -14,8 +14,8 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Switch>
-          <PrivateRoutes component={Profile} path="/profile" exact />
-          <PrivateRoutes component={Dashboard} path="/dashboard" exact />
+          <PrivateRoutes activeLayout={true} component={Profile} path="/profile" exact />
+          <PrivateRoutes activeLayout={true} component={Dashboard} path="/dashboard" exact />
 
           <PublicRoutes restricted={true} component={SignUp} path="/signup" exact />
           <PublicRoutes restricted={true} component={Login} path="/login" exact />

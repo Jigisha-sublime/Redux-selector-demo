@@ -7,7 +7,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import App from './App';
 import rootReducer from './redux/reducers/rootReducer';
 import * as serviceWorker from './serviceWorker';
-
+import AppThemeProvider from './theme/AppProvider'
 const store = createStore(
   rootReducer,
   window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__(),
@@ -16,7 +16,9 @@ const store = createStore(
 ReactDOM.render(
   <React.StrictMode>
     <Provider store={store}>
+      {/* <AppThemeProvider> */}
       <App />
+      {/* </AppThemeProvider> */}
     </Provider>
   </React.StrictMode>,
   document.getElementById('root'),
